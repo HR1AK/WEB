@@ -1,7 +1,6 @@
 .oval {
     background-color: blueviolet;
     border-radius: 24px;
-    width:80%;
     height: 50px;
     text-align: center;
     border: none;
@@ -74,6 +73,18 @@ a{
     font-weight: bold;
 }
 
+.block1 {
+    float: left;
+    margin: 2px;
+    color:#cecece;
+}
+    
+.block2 {
+    float: left;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
 
 
 
@@ -107,6 +118,59 @@ a{
    {
     content: "\f005";
    }
+
+
+
+
+
+
+
+
+
+
+   body{
+    background-color:#eef3f4;    
+    }
+    
+    .height-100{
+        height:100vh;
+    }
+    
+    .card{
+        width:380px;
+        border:none;
+        height:280px;
+    }
+    
+    .ratings{
+        margin-right:10px;
+    }
+    
+    .ratings i{
+        
+        color:#cecece;
+        font-size:32px;
+    }
+    
+    .rating-color{
+        color:#fbc634 !important;
+    }
+    
+    .review-count{
+        font-weight:400;
+        margin-bottom:2px;
+        font-size:24px !important;
+    }
+    
+    .small-ratings i{
+      color:#cecece;   
+    }
+    
+    .review-stat{
+        font-weight:300;
+        font-size:18px;
+        margin-bottom:2px;
+    }
    
    
 
