@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+input {
+    margin: 10px;
+    padding: 10px;
+    border: unset; 
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+
+p{
+    margin: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset; 
+    margin-bottom: 10px;
+}
+
+.msg
+{
+    border: 2px solid red;
+    border-radius: 3px;
+    text-align: center;
+    font-weight: bold;
+}
