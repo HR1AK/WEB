@@ -1,0 +1,176 @@
+.oval {
+    background-color: blueviolet;
+    border-radius: 24px;
+    height: 50px;
+    text-align: center;
+    border: none;
+    
+    text-decoration: none;
+    display: inline-block;
+}
+
+.oval:hover { 
+    background-color: rgb(97, 28, 161); 
+}
+
+.search {
+    background-color: white;
+    border-radius: 24px;
+    width: 100%;
+    height: 50px;
+    text-align: left;
+    padding-left: 5%;
+    border-color:blueviolet  ;
+    
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link1{
+    text-decoration: none; 
+    color:gray; 
+}
+
+.link2{
+    text-decoration: none; 
+    color:black; 
+}
+
+.page-catalog-details{
+    position: relative;
+}
+
+.breadcrumbs_content{
+    font-size: 10;
+    list-style: none;
+    list-style-image: none;
+}
+
+li{
+    text-align: -wedkit-match-parent;
+}
+
+ul{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.skruglenie{
+    border-radius: 50px;
+}
+
+
+#footer
+{
+    background-color: rgb(209, 224, 205);
+}
+
+.bold_text
+{
+    font-weight: bold;
+}
+
+.block1 {
+    float: left;
+    margin: 2px;
+    color:#cecece;
+}
+    
+.block2 {
+    float: left;
+    margin: 2px;
+    margin-bottom: 10px;
+}
+
+
+
+
+.star-rating{
+    font-size: 0;
+   }
+   .star-rating__wrap{
+    display: inline-block;
+    font-size: 1rem;
+   }
+   .star-rating__wrap:after{
+    content: "";
+    display: table;
+    clear: both;
+   }
+   .star-rating__ico{
+    float: right;
+    padding-left: 2px;
+    cursor: pointer;
+    color: #FFB300;
+   }
+   .star-rating__ico:last-child{
+    padding-left: 0;
+   }
+   .star-rating__input{
+    display: none;
+   }
+   .star-rating__ico:hover:before,
+   .star-rating__ico:hover ~ .star-rating__ico:before,
+   .star-rating__input:checked ~ .star-rating__ico:before
+   {
+    content: "\f005";
+   }
+
+
+
+
+
+
+
+
+
+
+   body{
+    background-color:#eef3f4;    
+    }
+    
+    .height-100{
+        height:100vh;
+    }
+    
+    .card{
+        width:380px;
+        border:none;
+        height:280px;
+    }
+    
+    .ratings{
+        margin-right:10px;
+    }
+    
+    .ratings i{
+        
+        color:#cecece;
+        font-size:32px;
+    }
+    
+    .rating-color{
+        color:#fbc634 !important;
+    }
+    
+    .review-count{
+        font-weight:400;
+        margin-bottom:2px;
+        font-size:24px !important;
+    }
+    
+    .small-ratings i{
+      color:#cecece;   
+    }
+    
+    .review-stat{
+        font-weight:300;
+        font-size:18px;
+        margin-bottom:2px;
+    }
+   
+   
+
